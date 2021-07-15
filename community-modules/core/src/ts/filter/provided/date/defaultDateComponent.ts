@@ -38,7 +38,7 @@ export class DefaultDateComponent extends Component implements IDateComp {
         this.addManagedListener(inputElement, 'mousedown', () => inputElement.focus());
 
         this.addManagedListener(this.eDateInput.getInputElement(), 'input', e => {
-            if (e.target !== document.activeElement) { return; }
+            if (e.target !== e.target.getRootNode().activeElement) { return; }
 
             params.onDateChanged();
         });
