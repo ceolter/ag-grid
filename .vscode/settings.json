@@ -1,12 +1,4 @@
 {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/build": true,
-        "**/dist": true
-    },
-    "typescript.tsdk": "node_modules/typescript/lib",
     "cSpell.language": "en-GB",
     "cSpell.words": [
         "autowire",
@@ -15,12 +7,51 @@
         "tran",
         "trans"
     ],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "eslint.validate": ["typescript", "typescriptreact"],
+    "eslint.workingDirectories": [
+        { "directory": "./community-modules/all-modules" },
+        { "directory": "./community-modules/angular" },
+        { "directory": "./community-modules/client-side-row-model" },
+        { "directory": "./community-modules/core" },
+        { "directory": "./community-modules/csv-export" },
+        { "directory": "./community-modules/infinite-row-model" },
+        { "directory": "./community-modules/react" },
+        { "directory": "./community-modules/vue" },
+        { "directory": "./community-modules/vue3" },
+        { "directory": "./charts-packages/ag-charts-community" },
+        { "directory": "./enterprise-modules/core" },
+        { "directory": "./enterprise-modules/clipboard" },
+        { "directory": "./enterprise-modules/menu" },
+        { "directory": "./enterprise-modules/side-bar" },
+        { "directory": "./enterprise-modules/status-bar" },
+        { "directory": "./enterprise-modules/range-selection" },
+        { "directory": "./enterprise-modules/charts" },
+        { "directory": "./enterprise-modules/row-grouping" },
+        { "directory": "./enterprise-modules/column-tool-panel" },
+        { "directory": "./enterprise-modules/excel-export" },
+        { "directory": "./enterprise-modules/filter-tool-panel" },
+        { "directory": "./enterprise-modules/master-detail" },
+        { "directory": "./enterprise-modules/rich-select" },
+        { "directory": "./enterprise-modules/server-side-row-model" },
+        { "directory": "./enterprise-modules/set-filter" },
+        { "directory": "./enterprise-modules/multi-filter" },
+        { "directory": "./enterprise-modules/viewport-row-model" },
+        { "directory": "./enterprise-modules/all-modules" }
+    ],
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
         "**/node_modules": true,
         "packages": true
     },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/build": true,
+        "**/dist": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
     "[scss]": {
         "editor.detectIndentation": false,
         "editor.tabSize": 4

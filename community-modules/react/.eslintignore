@@ -1,0 +1,11 @@
+bundles/
+cypress/
+dev-server/
+jest/
+lib/
+node_modules/
+babel.config.js
+.eslintrc.js
+gulpfile.js
+main.js
+webpack.config.js
